@@ -1,5 +1,24 @@
-body{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(244, 239, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(244, 239, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero{
+    text-align: center;
+    padding-bottom:50px;
 }
 h1{
     text-align: center;
@@ -19,8 +38,26 @@ h1{
     margin: auto;
     padding-top: 120px;
 }
-.download{
-    background-color: black;
-    color: white;
-    padding: 20px;
+.btn.btn-secondary.btn-lg.btn-block {
+    background-color: rgb(130, 46, 255);
+  }
+  #monicaVideo {
+    width: 650pt;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+}
+
+#monicaVideo::-webkit-media-controls {
+    display: none !important;
+}
+
+#monicaVideo::-moz-media-controls {
+    display: none !important;
+}
+
+#monicaVideo::-ms-media-controls {
+    display: none !important;
 }
