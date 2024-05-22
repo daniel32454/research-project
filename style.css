@@ -40,24 +40,26 @@ h1{
 }
 .btn.btn-secondary.btn-lg.btn-block {
     background-color: rgb(130, 46, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    font-weight: 500;
   }
   #monicaVideo {
     width: 650pt;
     height:auto;
     display: block;
     margin: 0 auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 2%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    margin-top: -130px;
 }
-
-#monicaVideo::-webkit-media-controls {
-    display: none !important;
+h2{
+    font-weight: 550;
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
 }
-
-#monicaVideo::-moz-media-controls {
-    display: none !important;
-}
-
-#monicaVideo::-ms-media-controls {
-    display: none !important;
+p{
+    font-size: 20px;
+    text-align: center;
 }
